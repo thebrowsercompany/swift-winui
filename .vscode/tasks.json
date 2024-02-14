@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Generate swift-winui bindings",
+            "command": "${workspaceFolder:swift-winui}/generate-bindings.ps1",
+            "problemMatcher": []
+        }
+    ]
+}

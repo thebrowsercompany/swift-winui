@@ -34,8 +34,12 @@ open class SwiftApplication: Application, IXamlMetadataProvider {
     }
 
     /// Override this method to provide your application's main entry point.
+    /// The first window for your application should be created and activated here.
     open func onLaunched(_ args: LaunchActivatedEventArgs) {
     }
+
+    /// Override this method to provide any necessary shutdown code.
+    open func onShutdown() { }
 
     public static func main() {
         do {
@@ -44,9 +48,13 @@ open class SwiftApplication: Application, IXamlMetadataProvider {
                 guard let instance = NSClassFromString(appClass) else {
                     fatalError("unable to find application class \(appClass)")
                 }
+                var application: SwiftApplication!
                 Application.start { _ in
-                    _ = (instance as! SwiftApplication.Type).init()
+                    MainRunLoopTickler.setup()
+                    application = (instance as! SwiftApplication.Type).init()
                 }
+                application.onShutdown()
+                MainRunLoopTickler.shutdown()
             }
         }
         catch {

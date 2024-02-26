@@ -368,6 +368,22 @@ fileprivate func makeAppBarFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return AppBar(fromAbi: abi)
 }
 
+fileprivate func makeAutoSuggestBoxFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AutoSuggestBox(fromAbi: abi)
+}
+
+fileprivate func makeAutoSuggestBoxQuerySubmittedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AutoSuggestBoxQuerySubmittedEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeAutoSuggestBoxSuggestionChosenEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AutoSuggestBoxSuggestionChosenEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeAutoSuggestBoxTextChangedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return AutoSuggestBoxTextChangedEventArgs(fromAbi: abi)
+}
+
 fileprivate func makeBitmapIconFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return BitmapIcon(fromAbi: abi)
 }
@@ -556,6 +572,14 @@ fileprivate func makeImageIconFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return ImageIcon(fromAbi: abi)
 }
 
+fileprivate func makeInfoBadgeFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return InfoBadge(fromAbi: abi)
+}
+
+fileprivate func makeInfoBadgeTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return InfoBadgeTemplateSettings(fromAbi: abi)
+}
+
 fileprivate func makeInfoBarFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return InfoBar(fromAbi: abi)
 }
@@ -698,6 +722,50 @@ fileprivate func makeMenuFlyoutSeparatorFrom(abi: WindowsFoundation.IInspectable
 
 fileprivate func makeMenuFlyoutSubItemFrom(abi: WindowsFoundation.IInspectable) -> Any {
     return MenuFlyoutSubItem(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationView(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewBackRequestedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewBackRequestedEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewDisplayModeChangedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewDisplayModeChangedEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewItemFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewItem(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewItemBaseFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewItemBase(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewItemCollapsedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewItemCollapsedEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewItemExpandingEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewItemExpandingEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewItemInvokedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewItemInvokedEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewPaneClosingEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewPaneClosingEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewSelectionChangedEventArgsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewSelectionChangedEventArgs(fromAbi: abi)
+}
+
+fileprivate func makeNavigationViewTemplateSettingsFrom(abi: WindowsFoundation.IInspectable) -> Any {
+    return NavigationViewTemplateSettings(fromAbi: abi)
 }
 
 fileprivate func makePageFrom(abi: WindowsFoundation.IInspectable) -> Any {
@@ -2029,6 +2097,10 @@ public class __MakeFromAbi: MakeFromAbi {
             case "IRawElementProviderSimple": return makeIRawElementProviderSimpleFrom(abi: abi)
             case "AnchorRequestedEventArgs": return makeAnchorRequestedEventArgsFrom(abi: abi)
             case "AppBar": return makeAppBarFrom(abi: abi)
+            case "AutoSuggestBox": return makeAutoSuggestBoxFrom(abi: abi)
+            case "AutoSuggestBoxQuerySubmittedEventArgs": return makeAutoSuggestBoxQuerySubmittedEventArgsFrom(abi: abi)
+            case "AutoSuggestBoxSuggestionChosenEventArgs": return makeAutoSuggestBoxSuggestionChosenEventArgsFrom(abi: abi)
+            case "AutoSuggestBoxTextChangedEventArgs": return makeAutoSuggestBoxTextChangedEventArgsFrom(abi: abi)
             case "BitmapIcon": return makeBitmapIconFrom(abi: abi)
             case "Border": return makeBorderFrom(abi: abi)
             case "Button": return makeButtonFrom(abi: abi)
@@ -2076,6 +2148,8 @@ public class __MakeFromAbi: MakeFromAbi {
             case "IconSourceElement": return makeIconSourceElementFrom(abi: abi)
             case "Image": return makeImageFrom(abi: abi)
             case "ImageIcon": return makeImageIconFrom(abi: abi)
+            case "InfoBadge": return makeInfoBadgeFrom(abi: abi)
+            case "InfoBadgeTemplateSettings": return makeInfoBadgeTemplateSettingsFrom(abi: abi)
             case "InfoBar": return makeInfoBarFrom(abi: abi)
             case "InfoBarClosedEventArgs": return makeInfoBarClosedEventArgsFrom(abi: abi)
             case "InfoBarClosingEventArgs": return makeInfoBarClosingEventArgsFrom(abi: abi)
@@ -2112,6 +2186,17 @@ public class __MakeFromAbi: MakeFromAbi {
             case "MenuFlyoutItemBase": return makeMenuFlyoutItemBaseFrom(abi: abi)
             case "MenuFlyoutSeparator": return makeMenuFlyoutSeparatorFrom(abi: abi)
             case "MenuFlyoutSubItem": return makeMenuFlyoutSubItemFrom(abi: abi)
+            case "NavigationView": return makeNavigationViewFrom(abi: abi)
+            case "NavigationViewBackRequestedEventArgs": return makeNavigationViewBackRequestedEventArgsFrom(abi: abi)
+            case "NavigationViewDisplayModeChangedEventArgs": return makeNavigationViewDisplayModeChangedEventArgsFrom(abi: abi)
+            case "NavigationViewItem": return makeNavigationViewItemFrom(abi: abi)
+            case "NavigationViewItemBase": return makeNavigationViewItemBaseFrom(abi: abi)
+            case "NavigationViewItemCollapsedEventArgs": return makeNavigationViewItemCollapsedEventArgsFrom(abi: abi)
+            case "NavigationViewItemExpandingEventArgs": return makeNavigationViewItemExpandingEventArgsFrom(abi: abi)
+            case "NavigationViewItemInvokedEventArgs": return makeNavigationViewItemInvokedEventArgsFrom(abi: abi)
+            case "NavigationViewPaneClosingEventArgs": return makeNavigationViewPaneClosingEventArgsFrom(abi: abi)
+            case "NavigationViewSelectionChangedEventArgs": return makeNavigationViewSelectionChangedEventArgsFrom(abi: abi)
+            case "NavigationViewTemplateSettings": return makeNavigationViewTemplateSettingsFrom(abi: abi)
             case "Page": return makePageFrom(abi: abi)
             case "Panel": return makePanelFrom(abi: abi)
             case "PasswordBox": return makePasswordBoxFrom(abi: abi)

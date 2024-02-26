@@ -137,5 +137,5 @@ function Invoke-SwiftWinRT() {
 
 $PackagesDir = Join-Path $PSScriptRoot ".packages"
 Restore-Nuget -PackagesDir $PackagesDir
-#Invoke-SwiftWinRT -PackagesDir $PackagesDir
+Invoke-SwiftWinRT -PackagesDir $PackagesDir
 Write-Host "SwiftWinRT bindings generated successfully!" -ForegroundColor Green

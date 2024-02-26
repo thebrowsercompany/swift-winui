@@ -26,6 +26,30 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarStatics: WindowsF
     .init(Data1: 0x0DC7172C, Data2: 0xA03D, Data3: 0x5AE4, Data4: ( 0x95,0x38,0xFF,0xD8,0x04,0x82,0x3B,0xCE ))// 0DC7172C-A03D-5AE4-9538-FFD804823BCE
 }
 
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox: WindowsFoundation.IID {
+    .init(Data1: 0x3EEA809E, Data2: 0xB2DB, Data3: 0x521D, Data4: ( 0x97,0xDB,0xE0,0x64,0x8F,0xB5,0xD7,0x98 ))// 3EEA809E-B2DB-521D-97DB-E0648FB5D798
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxQuerySubmittedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x26DA5DE4, Data2: 0x57A6, Data3: 0x57BF, Data4: ( 0xAC,0xC9,0xAA,0xC5,0x99,0xC0,0xB2,0x2B ))// 26DA5DE4-57A6-57BF-ACC9-AAC599C0B22B
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics: WindowsFoundation.IID {
+    .init(Data1: 0x9DFA2FF9, Data2: 0x1094, Data3: 0x54A8, Data4: ( 0xBE,0xEE,0xB3,0x45,0xFA,0x3E,0xE0,0x89 ))// 9DFA2FF9-1094-54A8-BEEE-B345FA3EE089
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxSuggestionChosenEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x7547C7E9, Data2: 0x7429, Data3: 0x5045, Data4: ( 0xAD,0x98,0x33,0x8A,0x96,0xB2,0x70,0xB1 ))// 7547C7E9-7429-5045-AD98-338A96B270B1
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xD7191D84, Data2: 0xE886, Data3: 0x547F, Data4: ( 0xA3,0xE2,0x12,0xF0,0xE0,0x5B,0x20,0xFA ))// D7191D84-E886-547F-A3E2-12F0E05B20FA
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgsStatics: WindowsFoundation.IID {
+    .init(Data1: 0x40155FB9, Data2: 0x253B, Data3: 0x5624, Data4: ( 0xA1,0x7A,0x29,0x4B,0xE7,0xA0,0x7F,0x87 ))// 40155FB9-253B-5624-A17A-294BE7A07F87
+}
+
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIBitmapIcon: WindowsFoundation.IID {
     .init(Data1: 0xC370BC29, Data2: 0x805B, Data3: 0x5BAD, Data4: ( 0xB6,0x15,0xEC,0x64,0x0E,0x57,0x9D,0xBB ))// C370BC29-805B-5BAD-B615-EC640E579DBB
 }
@@ -438,6 +462,30 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIImageStatics: WindowsFo
     .init(Data1: 0xCB5378A8, Data2: 0x996B, Data3: 0x547E, Data4: ( 0x9C,0x4C,0x7B,0xBF,0xD9,0xDB,0xE7,0xDC ))// CB5378A8-996B-547E-9C4C-7BBFD9DBE7DC
 }
 
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge: WindowsFoundation.IID {
+    .init(Data1: 0x82104D7F, Data2: 0x03D4, Data3: 0x5EA4, Data4: ( 0x87,0x2E,0xF9,0xEC,0xAB,0x75,0x86,0x01 ))// 82104D7F-03D4-5EA4-872E-F9ECAB758601
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeFactory: WindowsFoundation.IID {
+    .init(Data1: 0xFB498205, Data2: 0x2DE0, Data3: 0x5986, Data4: ( 0x8A,0xEC,0x2C,0x46,0xAC,0x23,0x50,0x87 ))// FB498205-2DE0-5986-8AEC-2C46AC235087
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeStatics: WindowsFoundation.IID {
+    .init(Data1: 0xB0160061, Data2: 0xB463, Data3: 0x54DE, Data4: ( 0x81,0xAC,0x64,0xF3,0x90,0xD4,0xF2,0x5D ))// B0160061-B463-54DE-81AC-64F390D4F25D
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings: WindowsFoundation.IID {
+    .init(Data1: 0xCE810F86, Data2: 0xD4BB, Data3: 0x51BD, Data4: ( 0xBF,0x7D,0xDF,0xD1,0xE6,0xC8,0x5F,0x4A ))// CE810F86-D4BB-51BD-BF7D-DFD1E6C85F4A
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsFactory: WindowsFoundation.IID {
+    .init(Data1: 0x5D366775, Data2: 0x1F6E, Data3: 0x558C, Data4: ( 0xAA,0xB4,0x66,0x77,0x04,0xB3,0x07,0x0C ))// 5D366775-1F6E-558C-AAB4-667704B3070C
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsStatics: WindowsFoundation.IID {
+    .init(Data1: 0x10959133, Data2: 0x64CE, Data3: 0x586F, Data4: ( 0xA2,0x52,0x9E,0x26,0xFC,0x1A,0xD9,0xBA ))// 10959133-64CE-586F-A252-9E26FC1AD9BA
+}
+
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBar: WindowsFoundation.IID {
     .init(Data1: 0xC1C3A438, Data2: 0xDD79, Data3: 0x5D22, Data4: ( 0x9E,0x42,0x5A,0x3C,0xDF,0x81,0x13,0xA9 ))// C1C3A438-DD79-5D22-9E42-5A3CDF8113A9
 }
@@ -776,6 +824,126 @@ private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIMenuFlyoutSubItemStatic
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigate: WindowsFoundation.IID {
     .init(Data1: 0xDD06F030, Data2: 0x5D47, Data3: 0x533C, Data4: ( 0x95,0xCF,0xDE,0x25,0x6A,0x0F,0x37,0x3A ))// DD06F030-5D47-533C-95CF-DE256A0F373A
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView: WindowsFoundation.IID {
+    .init(Data1: 0xE77A4B36, Data2: 0x3DD1, Data3: 0x53D9, Data4: ( 0x9F,0x97,0x65,0xDC,0xCA,0xA7,0x4A,0x5C ))// E77A4B36-3DD1-53D9-9F97-65DCCAA74A5C
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2: WindowsFoundation.IID {
+    .init(Data1: 0x05B428CF, Data2: 0x014C, Data3: 0x56DD, Data4: ( 0x89,0x6A,0xA3,0xE7,0x08,0x9D,0x73,0xB5 ))// 05B428CF-014C-56DD-896A-A3E7089D73B5
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewBackRequestedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xAE752207, Data2: 0xBD1B, Data3: 0x5AFA, Data4: ( 0xA8,0x72,0xE9,0xBB,0xAE,0xEA,0x0E,0xDE ))// AE752207-BD1B-5AFA-A872-E9BBAEEA0EDE
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewDisplayModeChangedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x58DCF1EA, Data2: 0x9E56, Data3: 0x522C, Data4: ( 0xB3,0xF8,0x34,0xBD,0x55,0xEC,0xAC,0xA4 ))// 58DCF1EA-9E56-522C-B3F8-34BD55ECACA4
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewFactory: WindowsFoundation.IID {
+    .init(Data1: 0xFFEA1ADA, Data2: 0x9232, Data3: 0x5507, Data4: ( 0xA3,0x20,0xED,0x2F,0xAD,0xBE,0x61,0x27 ))// FFEA1ADA-9232-5507-A320-ED2FADBE6127
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem: WindowsFoundation.IID {
+    .init(Data1: 0x3AB3D503, Data2: 0xA37C, Data3: 0x5836, Data4: ( 0x8A,0xDB,0x28,0x82,0x06,0x2E,0x73,0xA1 ))// 3AB3D503-A37C-5836-8ADB-2882062E73A1
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2: WindowsFoundation.IID {
+    .init(Data1: 0x2D5BD889, Data2: 0x9DAC, Data3: 0x5675, Data4: ( 0xB2,0x54,0x68,0x22,0x6F,0x07,0x7A,0x61 ))// 2D5BD889-9DAC-5675-B254-68226F077A61
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem3: WindowsFoundation.IID {
+    .init(Data1: 0xC6AA3120, Data2: 0xD888, Data3: 0x5C32, Data4: ( 0x8B,0xB7,0x49,0x0E,0xC9,0x1B,0x1A,0xEC ))// C6AA3120-D888-5C32-8BB7-490EC91B1AEC
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase: WindowsFoundation.IID {
+    .init(Data1: 0x33586494, Data2: 0xAF48, Data3: 0x513F, Data4: ( 0xBE,0x4D,0xF6,0x45,0xE8,0xC8,0x90,0x05 ))// 33586494-AF48-513F-BE4D-F645E8C89005
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase2: WindowsFoundation.IID {
+    .init(Data1: 0xD94EE683, Data2: 0xD437, Data3: 0x5523, Data4: ( 0x9C,0x5C,0x11,0xD4,0x80,0x4E,0x47,0x1E ))// D94EE683-D437-5523-9C5C-11D4804E471E
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBaseFactory: WindowsFoundation.IID {
+    .init(Data1: 0x31B9D7B1, Data2: 0x7C38, Data3: 0x5916, Data4: ( 0x99,0xC6,0xC7,0x1F,0x6B,0x01,0x2B,0x1B ))// 31B9D7B1-7C38-5916-99C6-C71F6B012B1B
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBaseStatics: WindowsFoundation.IID {
+    .init(Data1: 0x71A0C438, Data2: 0xF0C2, Data3: 0x5093, Data4: ( 0x89,0x06,0xC1,0xC3,0xC0,0x2D,0xE7,0x91 ))// 71A0C438-F0C2-5093-8906-C1C3C02DE791
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemCollapsedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xB546F6A1, Data2: 0xC66F, Data3: 0x5DED, Data4: ( 0xB5,0xD7,0xBE,0xD0,0xA2,0x61,0x97,0xE3 ))// B546F6A1-C66F-5DED-B5D7-BED0A26197E3
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemExpandingEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x6F0941BE, Data2: 0xE991, Data3: 0x52F8, Data4: ( 0x83,0x15,0xF0,0x83,0x89,0x49,0x79,0x76 ))// 6F0941BE-E991-52F8-8315-F08389497976
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemFactory: WindowsFoundation.IID {
+    .init(Data1: 0xDE60A001, Data2: 0x9385, Data3: 0x5535, Data4: ( 0x80,0xE1,0x2B,0x68,0xF4,0xBF,0xDE,0x26 ))// DE60A001-9385-5535-80E1-2B68F4BFDE26
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x074CEBAA, Data2: 0x5D05, Data3: 0x547B, Data4: ( 0x8C,0xD6,0xD1,0x9A,0xC2,0xD9,0xBB,0x3B ))// 074CEBAA-5D05-547B-8CD6-D19AC2D9BB3B
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs2: WindowsFoundation.IID {
+    .init(Data1: 0xE1CBB99F, Data2: 0x19EB, Data3: 0x5C7B, Data4: ( 0xB9,0x82,0x85,0x4B,0xB0,0x8D,0x5E,0xB7 ))// E1CBB99F-19EB-5C7B-B982-854BB08D5EB7
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics: WindowsFoundation.IID {
+    .init(Data1: 0x7B6198E5, Data2: 0x0714, Data3: 0x531C, Data4: ( 0xA0,0x56,0x21,0xB3,0xCA,0x40,0xEC,0x1A ))// 7B6198E5-0714-531C-A056-21B3CA40EC1A
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2: WindowsFoundation.IID {
+    .init(Data1: 0xD49D016F, Data2: 0xABD0, Data3: 0x51F3, Data4: ( 0xAC,0xF0,0x11,0x8E,0xCC,0xEE,0xA7,0x60 ))// D49D016F-ABD0-51F3-ACF0-118ECCEEA760
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics3: WindowsFoundation.IID {
+    .init(Data1: 0x957BEB66, Data2: 0xD33A, Data3: 0x53AA, Data4: ( 0xA5,0x18,0x7D,0x42,0x6B,0xB9,0xB1,0x77 ))// 957BEB66-D33A-53AA-A518-7D426BB9B177
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewPaneClosingEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0xE8643304, Data2: 0x6DB4, Data3: 0x5AF5, Data4: ( 0xBA,0xC2,0x62,0x73,0x3C,0xA0,0x37,0xDA ))// E8643304-6DB4-5AF5-BAC2-62733CA037DA
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs: WindowsFoundation.IID {
+    .init(Data1: 0x14A064A5, Data2: 0xC79D, Data3: 0x5F63, Data4: ( 0xAC,0x6E,0x1C,0x31,0x3F,0xE6,0x35,0x66 ))// 14A064A5-C79D-5F63-AC6E-1C313FE63566
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs2: WindowsFoundation.IID {
+    .init(Data1: 0xE9B5191F, Data2: 0x1AD1, Data3: 0x5366, Data4: ( 0xBC,0x1A,0x90,0xB9,0x60,0x76,0xD4,0x9E ))// E9B5191F-1AD1-5366-BC1A-90B96076D49E
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics: WindowsFoundation.IID {
+    .init(Data1: 0xDCD04CAF, Data2: 0x1904, Data3: 0x564B, Data4: ( 0xB0,0xDE,0xBA,0xBA,0xFF,0x99,0x62,0xF5 ))// DCD04CAF-1904-564B-B0DE-BABAFF9962F5
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2: WindowsFoundation.IID {
+    .init(Data1: 0x79588150, Data2: 0x4A1B, Data3: 0x5E7C, Data4: ( 0x9F,0x8A,0xEB,0xC8,0x14,0xCE,0x77,0x3D ))// 79588150-4A1B-5E7C-9F8A-EBC814CE773D
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings: WindowsFoundation.IID {
+    .init(Data1: 0xBBD25FA5, Data2: 0x9C08, Data3: 0x5F10, Data4: ( 0xBE,0x20,0xCB,0x4C,0x18,0x99,0xBD,0x9D ))// BBD25FA5-9C08-5F10-BE20-CB4C1899BD9D
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings2: WindowsFoundation.IID {
+    .init(Data1: 0x56BEC72F, Data2: 0x1DE1, Data3: 0x5060, Data4: ( 0xA4,0x4C,0x18,0x78,0x85,0xDF,0x29,0x73 ))// 56BEC72F-1DE1-5060-A44C-187885DF2973
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsFactory: WindowsFoundation.IID {
+    .init(Data1: 0x34FF6C94, Data2: 0x6465, Data3: 0x5F3E, Data4: ( 0xB0,0xA5,0x4F,0x1E,0xEA,0x48,0xE7,0x43 ))// 34FF6C94-6465-5F3E-B0A5-4F1EEA48E743
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics: WindowsFoundation.IID {
+    .init(Data1: 0xBE3A88D6, Data2: 0xD19B, Data3: 0x5543, Data4: ( 0x8B,0x72,0xD4,0x2B,0x45,0x9E,0x72,0xED ))// BE3A88D6-D19B-5543-8B72-D42B459E72ED
+}
+
+private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics2: WindowsFoundation.IID {
+    .init(Data1: 0xC0C06BE3, Data2: 0x9203, Data3: 0x5EEA, Data4: ( 0x91,0xDC,0x5D,0x81,0x2A,0x97,0x02,0xA6 ))// C0C06BE3-9203-5EEA-91DC-5D812A9702A6
 }
 
 private var IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPage: WindowsFoundation.IID {
@@ -1691,6 +1859,428 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
             let (value) = try ComPtrs.initialize { valueAbi in
                 _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAppBarStatics.self) { pThis in
                     try CHECKED(pThis.pointee.lpVtbl.pointee.get_LightDismissOverlayModeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IAutoSuggestBox: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox }
+
+        internal func get_MaxSuggestionListHeightImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_MaxSuggestionListHeight(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_MaxSuggestionListHeightImpl(_ value: Double) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MaxSuggestionListHeight(pThis, value))
+            }
+        }
+
+        internal func get_IsSuggestionListOpenImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSuggestionListOpen(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsSuggestionListOpenImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsSuggestionListOpen(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_TextMemberPathImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_TextMemberPath(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_TextMemberPathImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_TextMemberPath(pThis, _value.get()))
+            }
+        }
+
+        internal func get_TextImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Text(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_TextImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Text(pThis, _value.get()))
+            }
+        }
+
+        internal func get_UpdateTextOnSelectImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_UpdateTextOnSelect(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_UpdateTextOnSelectImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_UpdateTextOnSelect(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_PlaceholderTextImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_PlaceholderText(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_PlaceholderTextImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PlaceholderText(pThis, _value.get()))
+            }
+        }
+
+        internal func get_HeaderImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Header(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_HeaderImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Header(pThis, _value))
+            }
+        }
+
+        internal func get_AutoMaximizeSuggestionAreaImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_AutoMaximizeSuggestionArea(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_AutoMaximizeSuggestionAreaImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_AutoMaximizeSuggestionArea(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_TextBoxStyleImpl() throws -> WinUI.Style? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TextBoxStyle(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_TextBoxStyleImpl(_ value: WinUI.Style?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_TextBoxStyle(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_QueryIconImpl() throws -> WinUI.IconElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_QueryIcon(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_QueryIconImpl(_ value: WinUI.IconElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_QueryIcon(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_LightDismissOverlayModeImpl() throws -> WinUI.LightDismissOverlayMode {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CLightDismissOverlayMode = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_LightDismissOverlayMode(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_LightDismissOverlayModeImpl(_ value: WinUI.LightDismissOverlayMode) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_LightDismissOverlayMode(pThis, value))
+            }
+        }
+
+        internal func get_DescriptionImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Description(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_DescriptionImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Description(pThis, _value))
+            }
+        }
+
+        internal func add_SuggestionChosenImpl(_ handler: TypedEventHandler<WinUI.AutoSuggestBox?, WinUI.AutoSuggestBoxSuggestionChosenEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAutoSuggestBox___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAutoSuggestBoxSuggestionChosenEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_SuggestionChosen(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_SuggestionChosenImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SuggestionChosen(pThis, token))
+            }
+        }
+
+        internal func add_TextChangedImpl(_ handler: TypedEventHandler<WinUI.AutoSuggestBox?, WinUI.AutoSuggestBoxTextChangedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAutoSuggestBox___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAutoSuggestBoxTextChangedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_TextChanged(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_TextChangedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_TextChanged(pThis, token))
+            }
+        }
+
+        internal func add_QuerySubmittedImpl(_ handler: TypedEventHandler<WinUI.AutoSuggestBox?, WinUI.AutoSuggestBoxQuerySubmittedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAutoSuggestBox___x_ABI_CMicrosoft__CUI__CXaml__CControls__CAutoSuggestBoxQuerySubmittedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_QuerySubmitted(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_QuerySubmittedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_QuerySubmitted(pThis, token))
+            }
+        }
+
+    }
+
+    public class IAutoSuggestBoxQuerySubmittedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxQuerySubmittedEventArgs }
+
+        internal func get_QueryTextImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxQuerySubmittedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_QueryText(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func get_ChosenSuggestionImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxQuerySubmittedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ChosenSuggestion(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+    }
+
+    public class IAutoSuggestBoxStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics }
+
+        internal func get_MaxSuggestionListHeightPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MaxSuggestionListHeightProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsSuggestionListOpenPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSuggestionListOpenProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_TextMemberPathPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TextMemberPathProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_TextPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TextProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_UpdateTextOnSelectPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_UpdateTextOnSelectProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PlaceholderTextPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PlaceholderTextProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_HeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HeaderProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_AutoMaximizeSuggestionAreaPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_AutoMaximizeSuggestionAreaProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_TextBoxStylePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TextBoxStyleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_QueryIconPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_QueryIconProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_LightDismissOverlayModePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LightDismissOverlayModeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DescriptionPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_DescriptionProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IAutoSuggestBoxSuggestionChosenEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxSuggestionChosenEventArgs }
+
+        internal func get_SelectedItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxSuggestionChosenEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+    }
+
+    public class IAutoSuggestBoxTextChangedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs }
+
+        internal func get_ReasonImpl() throws -> WinUI.AutoSuggestionBoxTextChangeReason {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CAutoSuggestionBoxTextChangeReason = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Reason(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_ReasonImpl(_ value: WinUI.AutoSuggestionBoxTextChangeReason) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Reason(pThis, value))
+            }
+        }
+
+        internal func CheckCurrentImpl() throws -> Bool {
+            var result: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.CheckCurrent(pThis, &result))
+            }
+            return .init(from: result)
+        }
+
+    }
+
+    public class IAutoSuggestBoxTextChangedEventArgsStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgsStatics }
+
+        internal func get_ReasonPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ReasonProperty(pThis, &valueAbi))
                 }
             }
             return .from(abi: value)
@@ -7343,6 +7933,174 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
 
     }
 
+    public class IInfoBadge: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge }
+
+        internal func get_ValueImpl() throws -> Int32 {
+            var value: INT32 = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Value(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_ValueImpl(_ value: Int32) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Value(pThis, value))
+            }
+        }
+
+        internal func get_IconSourceImpl() throws -> WinUI.IconSource? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconSource(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_IconSourceImpl(_ value: WinUI.IconSource?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IconSource(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_TemplateSettingsImpl() throws -> WinUI.InfoBadgeTemplateSettings? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TemplateSettings(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IInfoBadgeFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.InfoBadge.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> IInfoBadge {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return IInfoBadge(value!)
+        }
+
+    }
+
+    public class IInfoBadgeStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeStatics }
+
+        internal func get_ValuePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ValueProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IconSourcePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconSourceProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_TemplateSettingsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TemplateSettingsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class IInfoBadgeTemplateSettings: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings }
+
+        internal func get_InfoBadgeCornerRadiusImpl() throws -> WinUI.CornerRadius {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius = .init()
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_InfoBadgeCornerRadius(pThis, &value))
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_InfoBadgeCornerRadiusImpl(_ value: WinUI.CornerRadius) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_InfoBadgeCornerRadius(pThis, .from(swift: value)))
+            }
+        }
+
+        internal func get_IconElementImpl() throws -> WinUI.IconElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconElement(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_IconElementImpl(_ value: WinUI.IconElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IconElement(pThis, RawPointer(value)))
+            }
+        }
+
+    }
+
+    public class IInfoBadgeTemplateSettingsFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.InfoBadgeTemplateSettings.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> IInfoBadgeTemplateSettings {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return IInfoBadgeTemplateSettings(value!)
+        }
+
+    }
+
+    public class IInfoBadgeTemplateSettingsStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsStatics }
+
+        internal func get_InfoBadgeCornerRadiusPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_InfoBadgeCornerRadiusProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IconElementPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconElementProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
     public class IInfoBar: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBar }
 
@@ -11652,6 +12410,1758 @@ public enum __ABI_Microsoft_UI_Xaml_Controls {
     )
 
     public typealias INavigateWrapper = InterfaceWrapperBase<__IMPL_Microsoft_UI_Xaml_Controls.INavigateBridge>
+    public class INavigationView: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView }
+
+        internal func get_IsPaneOpenImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPaneOpen(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsPaneOpenImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsPaneOpen(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_CompactModeThresholdWidthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_CompactModeThresholdWidth(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_CompactModeThresholdWidthImpl(_ value: Double) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_CompactModeThresholdWidth(pThis, value))
+            }
+        }
+
+        internal func get_ExpandedModeThresholdWidthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExpandedModeThresholdWidth(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_ExpandedModeThresholdWidthImpl(_ value: Double) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ExpandedModeThresholdWidth(pThis, value))
+            }
+        }
+
+        internal func get_FooterMenuItemsImpl() throws -> WindowsFoundation.AnyIVector<Any?>? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_FooterMenuItems(pThis, &valueAbi))
+                }
+            }
+            return WinUI.__x_ABI_C__FIVector_1_IInspectableWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_FooterMenuItemsSourceImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_FooterMenuItemsSource(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_FooterMenuItemsSourceImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_FooterMenuItemsSource(pThis, _value))
+            }
+        }
+
+        internal func get_PaneFooterImpl() throws -> WinUI.UIElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneFooter(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_PaneFooterImpl(_ value: WinUI.UIElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PaneFooter(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_HeaderImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Header(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_HeaderImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Header(pThis, _value))
+            }
+        }
+
+        internal func get_HeaderTemplateImpl() throws -> WinUI.DataTemplate? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HeaderTemplate(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_HeaderTemplateImpl(_ value: WinUI.DataTemplate?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HeaderTemplate(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_DisplayModeImpl() throws -> WinUI.NavigationViewDisplayMode {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewDisplayMode = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayMode(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_IsSettingsVisibleImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSettingsVisible(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsSettingsVisibleImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsSettingsVisible(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_IsPaneToggleButtonVisibleImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPaneToggleButtonVisible(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsPaneToggleButtonVisibleImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsPaneToggleButtonVisible(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_AlwaysShowHeaderImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_AlwaysShowHeader(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_AlwaysShowHeaderImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_AlwaysShowHeader(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_CompactPaneLengthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_CompactPaneLength(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_CompactPaneLengthImpl(_ value: Double) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_CompactPaneLength(pThis, value))
+            }
+        }
+
+        internal func get_OpenPaneLengthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_OpenPaneLength(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_OpenPaneLengthImpl(_ value: Double) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_OpenPaneLength(pThis, value))
+            }
+        }
+
+        internal func get_PaneToggleButtonStyleImpl() throws -> WinUI.Style? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneToggleButtonStyle(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_PaneToggleButtonStyleImpl(_ value: WinUI.Style?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PaneToggleButtonStyle(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_SelectedItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_SelectedItemImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SelectedItem(pThis, _value))
+            }
+        }
+
+        internal func get_MenuItemsImpl() throws -> WindowsFoundation.AnyIVector<Any?>? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItems(pThis, &valueAbi))
+                }
+            }
+            return WinUI.__x_ABI_C__FIVector_1_IInspectableWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_MenuItemsSourceImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemsSource(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_MenuItemsSourceImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MenuItemsSource(pThis, _value))
+            }
+        }
+
+        internal func get_SettingsItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SettingsItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_AutoSuggestBoxImpl() throws -> WinUI.AutoSuggestBox? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_AutoSuggestBox(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_AutoSuggestBoxImpl(_ value: WinUI.AutoSuggestBox?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_AutoSuggestBox(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_MenuItemTemplateImpl() throws -> WinUI.DataTemplate? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemTemplate(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_MenuItemTemplateImpl(_ value: WinUI.DataTemplate?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MenuItemTemplate(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_MenuItemTemplateSelectorImpl() throws -> WinUI.DataTemplateSelector? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemTemplateSelector(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_MenuItemTemplateSelectorImpl(_ value: WinUI.DataTemplateSelector?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MenuItemTemplateSelector(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_MenuItemContainerStyleImpl() throws -> WinUI.Style? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemContainerStyle(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_MenuItemContainerStyleImpl(_ value: WinUI.Style?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MenuItemContainerStyle(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_MenuItemContainerStyleSelectorImpl() throws -> WinUI.StyleSelector? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemContainerStyleSelector(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_MenuItemContainerStyleSelectorImpl(_ value: WinUI.StyleSelector?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MenuItemContainerStyleSelector(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func MenuItemFromContainerImpl(_ container: WinUI.DependencyObject?) throws -> Any? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.MenuItemFromContainer(pThis, RawPointer(container), &resultAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: result)
+        }
+
+        internal func ContainerFromMenuItemImpl(_ item: Any?) throws -> WinUI.DependencyObject? {
+            let (result) = try ComPtrs.initialize { resultAbi in
+                let itemWrapper = __ABI_.AnyWrapper(item)
+                let _item = try! itemWrapper?.toABI { $0 }
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.ContainerFromMenuItem(pThis, _item, &resultAbi))
+                }
+            }
+            return .from(abi: result)
+        }
+
+        internal func add_SelectionChangedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewSelectionChangedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewSelectionChangedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_SelectionChanged(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_SelectionChangedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_SelectionChanged(pThis, token))
+            }
+        }
+
+        internal func add_ItemInvokedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewItemInvokedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewItemInvokedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_ItemInvoked(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_ItemInvokedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_ItemInvoked(pThis, token))
+            }
+        }
+
+        internal func add_DisplayModeChangedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewDisplayModeChangedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewDisplayModeChangedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_DisplayModeChanged(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_DisplayModeChangedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_DisplayModeChanged(pThis, token))
+            }
+        }
+
+        internal func get_IsTitleBarAutoPaddingEnabledImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsTitleBarAutoPaddingEnabled(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsTitleBarAutoPaddingEnabledImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsTitleBarAutoPaddingEnabled(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
+    public class INavigationView2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2 }
+
+        internal func get_IsBackButtonVisibleImpl() throws -> WinUI.NavigationViewBackButtonVisible {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewBackButtonVisible = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBackButtonVisible(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_IsBackButtonVisibleImpl(_ value: WinUI.NavigationViewBackButtonVisible) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsBackButtonVisible(pThis, value))
+            }
+        }
+
+        internal func get_IsBackEnabledImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBackEnabled(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsBackEnabledImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsBackEnabled(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_PaneTitleImpl() throws -> String {
+            var value: HSTRING?
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneTitle(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_PaneTitleImpl(_ value: String) throws {
+            let _value = try! HString(value)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PaneTitle(pThis, _value.get()))
+            }
+        }
+
+        internal func add_BackRequestedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewBackRequestedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewBackRequestedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_BackRequested(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_BackRequestedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_BackRequested(pThis, token))
+            }
+        }
+
+        internal func add_PaneClosedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_PaneClosed(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_PaneClosedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_PaneClosed(pThis, token))
+            }
+        }
+
+        internal func add_PaneClosingImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewPaneClosingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewPaneClosingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_PaneClosing(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_PaneClosingImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_PaneClosing(pThis, token))
+            }
+        }
+
+        internal func add_PaneOpenedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_PaneOpened(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_PaneOpenedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_PaneOpened(pThis, token))
+            }
+        }
+
+        internal func add_PaneOpeningImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, Any?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView_IInspectableWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_PaneOpening(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_PaneOpeningImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_PaneOpening(pThis, token))
+            }
+        }
+
+        internal func get_PaneDisplayModeImpl() throws -> WinUI.NavigationViewPaneDisplayMode {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneDisplayMode(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_PaneDisplayModeImpl(_ value: WinUI.NavigationViewPaneDisplayMode) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PaneDisplayMode(pThis, value))
+            }
+        }
+
+        internal func get_PaneHeaderImpl() throws -> WinUI.UIElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneHeader(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_PaneHeaderImpl(_ value: WinUI.UIElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PaneHeader(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_PaneCustomContentImpl() throws -> WinUI.UIElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneCustomContent(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_PaneCustomContentImpl(_ value: WinUI.UIElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_PaneCustomContent(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_ContentOverlayImpl() throws -> WinUI.UIElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContentOverlay(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_ContentOverlayImpl(_ value: WinUI.UIElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ContentOverlay(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_IsPaneVisibleImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPaneVisible(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsPaneVisibleImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsPaneVisible(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_SelectionFollowsFocusImpl() throws -> WinUI.NavigationViewSelectionFollowsFocus {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewSelectionFollowsFocus = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectionFollowsFocus(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_SelectionFollowsFocusImpl(_ value: WinUI.NavigationViewSelectionFollowsFocus) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SelectionFollowsFocus(pThis, value))
+            }
+        }
+
+        internal func get_TemplateSettingsImpl() throws -> WinUI.NavigationViewTemplateSettings? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TemplateSettings(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_ShoulderNavigationEnabledImpl() throws -> WinUI.NavigationViewShoulderNavigationEnabled {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewShoulderNavigationEnabled = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShoulderNavigationEnabled(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_ShoulderNavigationEnabledImpl(_ value: WinUI.NavigationViewShoulderNavigationEnabled) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_ShoulderNavigationEnabled(pThis, value))
+            }
+        }
+
+        internal func get_OverflowLabelModeImpl() throws -> WinUI.NavigationViewOverflowLabelMode {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewOverflowLabelMode = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_OverflowLabelMode(pThis, &value))
+            }
+            return value
+        }
+
+        internal func put_OverflowLabelModeImpl(_ value: WinUI.NavigationViewOverflowLabelMode) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_OverflowLabelMode(pThis, value))
+            }
+        }
+
+        internal func add_ExpandingImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewItemExpandingEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewItemExpandingEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_Expanding(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_ExpandingImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Expanding(pThis, token))
+            }
+        }
+
+        internal func add_CollapsedImpl(_ handler: TypedEventHandler<WinUI.NavigationView?, WinUI.NavigationViewItemCollapsedEventArgs?>?) throws -> EventRegistrationToken {
+            var token: EventRegistrationToken = .init()
+            let handlerWrapper = WinUI.__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationView___x_ABI_CMicrosoft__CUI__CXaml__CControls__CNavigationViewItemCollapsedEventArgsWrapper(handler)
+            let _handler = try! handlerWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.add_Collapsed(pThis, _handler, &token))
+            }
+            return token
+        }
+
+        internal func remove_CollapsedImpl(_ token: EventRegistrationToken) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.remove_Collapsed(pThis, token))
+            }
+        }
+
+        internal func ExpandImpl(_ item: WinUI.NavigationViewItem?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.Expand(pThis, RawPointer(item)))
+            }
+        }
+
+        internal func CollapseImpl(_ item: WinUI.NavigationViewItem?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.Collapse(pThis, RawPointer(item)))
+            }
+        }
+
+    }
+
+    public class INavigationViewBackRequestedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewBackRequestedEventArgs }
+
+    }
+
+    public class INavigationViewDisplayModeChangedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewDisplayModeChangedEventArgs }
+
+        internal func get_DisplayModeImpl() throws -> WinUI.NavigationViewDisplayMode {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewDisplayMode = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewDisplayModeChangedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayMode(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
+    public class INavigationViewFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.NavigationView.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> INavigationView {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return INavigationView(value!)
+        }
+
+    }
+
+    public class INavigationViewItem: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem }
+
+        internal func get_IconImpl() throws -> WinUI.IconElement? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_Icon(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_IconImpl(_ value: WinUI.IconElement?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Icon(pThis, RawPointer(value)))
+            }
+        }
+
+        internal func get_CompactPaneLengthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_CompactPaneLength(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
+    public class INavigationViewItem2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2 }
+
+        internal func get_SelectsOnInvokedImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectsOnInvoked(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_SelectsOnInvokedImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_SelectsOnInvoked(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_IsExpandedImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsExpanded(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsExpandedImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsExpanded(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_HasUnrealizedChildrenImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasUnrealizedChildren(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_HasUnrealizedChildrenImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_HasUnrealizedChildren(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_IsChildSelectedImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsChildSelected(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsChildSelectedImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsChildSelected(pThis, .init(from: value)))
+            }
+        }
+
+        internal func get_MenuItemsImpl() throws -> WindowsFoundation.AnyIVector<Any?>? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItems(pThis, &valueAbi))
+                }
+            }
+            return WinUI.__x_ABI_C__FIVector_1_IInspectableWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_MenuItemsSourceImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemsSource(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func put_MenuItemsSourceImpl(_ value: Any?) throws {
+            let valueWrapper = __ABI_.AnyWrapper(value)
+            let _value = try! valueWrapper?.toABI { $0 }
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_MenuItemsSource(pThis, _value))
+            }
+        }
+
+    }
+
+    public class INavigationViewItem3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem3 }
+
+        internal func get_InfoBadgeImpl() throws -> WinUI.InfoBadge? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem3.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_InfoBadge(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func put_InfoBadgeImpl(_ value: WinUI.InfoBadge?) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem3.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_InfoBadge(pThis, RawPointer(value)))
+            }
+        }
+
+    }
+
+    public class INavigationViewItemBase: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase }
+
+    }
+
+    public class INavigationViewItemBase2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase2 }
+
+        internal func get_IsSelectedImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSelected(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_IsSelectedImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_IsSelected(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
+    public class INavigationViewItemBaseFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBaseFactory }
+
+    }
+
+    public class INavigationViewItemBaseStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBaseStatics }
+
+        internal func get_IsSelectedPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBaseStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSelectedProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewItemCollapsedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemCollapsedEventArgs }
+
+        internal func get_CollapsedItemContainerImpl() throws -> WinUI.NavigationViewItemBase? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemCollapsedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CollapsedItemContainer(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_CollapsedItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemCollapsedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CollapsedItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+    }
+
+    public class INavigationViewItemExpandingEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemExpandingEventArgs }
+
+        internal func get_ExpandingItemContainerImpl() throws -> WinUI.NavigationViewItemBase? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemExpandingEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExpandingItemContainer(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_ExpandingItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemExpandingEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExpandingItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+    }
+
+    public class INavigationViewItemFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.NavigationViewItem.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> INavigationViewItem {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return INavigationViewItem(value!)
+        }
+
+    }
+
+    public class INavigationViewItemInvokedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs }
+
+        internal func get_InvokedItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_InvokedItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_IsSettingsInvokedImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSettingsInvoked(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+    }
+
+    public class INavigationViewItemInvokedEventArgs2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs2 }
+
+        internal func get_InvokedItemContainerImpl() throws -> WinUI.NavigationViewItemBase? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_InvokedItemContainer(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_RecommendedNavigationTransitionInfoImpl() throws -> WinUI.NavigationTransitionInfo? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_RecommendedNavigationTransitionInfo(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewItemStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics }
+
+        internal func get_IconPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IconProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_CompactPaneLengthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CompactPaneLengthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewItemStatics2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2 }
+
+        internal func get_SelectsOnInvokedPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectsOnInvokedProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsExpandedPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsExpandedProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_HasUnrealizedChildrenPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HasUnrealizedChildrenProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsChildSelectedPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsChildSelectedProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemsSourcePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemsSourceProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewItemStatics3: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics3 }
+
+        internal func get_InfoBadgePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemStatics3.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_InfoBadgeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewPaneClosingEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewPaneClosingEventArgs }
+
+        internal func get_CancelImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewPaneClosingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_Cancel(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func put_CancelImpl(_ value: Bool) throws {
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewPaneClosingEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.put_Cancel(pThis, .init(from: value)))
+            }
+        }
+
+    }
+
+    public class INavigationViewSelectionChangedEventArgs: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs }
+
+        internal func get_SelectedItemImpl() throws -> Any? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedItem(pThis, &valueAbi))
+                }
+            }
+            return __ABI_.AnyWrapper.unwrapFrom(abi: value)
+        }
+
+        internal func get_IsSettingsSelectedImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSettingsSelected(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+    }
+
+    public class INavigationViewSelectionChangedEventArgs2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs2 }
+
+        internal func get_SelectedItemContainerImpl() throws -> WinUI.NavigationViewItemBase? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedItemContainer(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_RecommendedNavigationTransitionInfoImpl() throws -> WinUI.NavigationTransitionInfo? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_RecommendedNavigationTransitionInfo(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics }
+
+        internal func get_IsPaneOpenPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPaneOpenProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_CompactModeThresholdWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CompactModeThresholdWidthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_ExpandedModeThresholdWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ExpandedModeThresholdWidthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_FooterMenuItemsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_FooterMenuItemsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_FooterMenuItemsSourcePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_FooterMenuItemsSourceProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneFooterPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneFooterProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_HeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HeaderProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_HeaderTemplatePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_HeaderTemplateProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_DisplayModePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_DisplayModeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsSettingsVisiblePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsSettingsVisibleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsPaneToggleButtonVisiblePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPaneToggleButtonVisibleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_AlwaysShowHeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_AlwaysShowHeaderProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_CompactPaneLengthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_CompactPaneLengthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_OpenPaneLengthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OpenPaneLengthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneToggleButtonStylePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneToggleButtonStyleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemsSourcePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemsSourceProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_SelectedItemPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectedItemProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_SettingsItemPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SettingsItemProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_AutoSuggestBoxPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_AutoSuggestBoxProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemTemplatePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemTemplateProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemTemplateSelectorPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemTemplateSelectorProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemContainerStylePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemContainerStyleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_MenuItemContainerStyleSelectorPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_MenuItemContainerStyleSelectorProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsTitleBarAutoPaddingEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsTitleBarAutoPaddingEnabledProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewStatics2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2 }
+
+        internal func get_IsBackButtonVisiblePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBackButtonVisibleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsBackEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsBackEnabledProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneTitlePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneTitleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneDisplayModePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneDisplayModeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneHeaderPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneHeaderProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneCustomContentPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneCustomContentProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_ContentOverlayPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ContentOverlayProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_IsPaneVisiblePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_IsPaneVisibleProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_SelectionFollowsFocusPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SelectionFollowsFocusProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_TemplateSettingsPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TemplateSettingsProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_ShoulderNavigationEnabledPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_ShoulderNavigationEnabledProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_OverflowLabelModePropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OverflowLabelModeProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewTemplateSettings: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings }
+
+        internal func get_TopPaddingImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopPadding(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_OverflowButtonVisibilityImpl() throws -> WinUI.Visibility {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_OverflowButtonVisibility(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_PaneToggleButtonVisibilityImpl() throws -> WinUI.Visibility {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneToggleButtonVisibility(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_BackButtonVisibilityImpl() throws -> WinUI.Visibility {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_BackButtonVisibility(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_TopPaneVisibilityImpl() throws -> WinUI.Visibility {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopPaneVisibility(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_LeftPaneVisibilityImpl() throws -> WinUI.Visibility {
+            var value: __x_ABI_CMicrosoft_CUI_CXaml_CVisibility = .init(0)
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_LeftPaneVisibility(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_SingleSelectionFollowsFocusImpl() throws -> Bool {
+            var value: boolean = 0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SingleSelectionFollowsFocus(pThis, &value))
+            }
+            return .init(from: value)
+        }
+
+        internal func get_PaneToggleButtonWidthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneToggleButtonWidth(pThis, &value))
+            }
+            return value
+        }
+
+        internal func get_SmallerPaneToggleButtonWidthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_SmallerPaneToggleButtonWidth(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
+    public class INavigationViewTemplateSettings2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings2 }
+
+        internal func get_OpenPaneLengthImpl() throws -> Double {
+            var value: DOUBLE = 0.0
+            _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings2.self) { pThis in
+                try CHECKED(pThis.pointee.lpVtbl.pointee.get_OpenPaneLength(pThis, &value))
+            }
+            return value
+        }
+
+    }
+
+    public class INavigationViewTemplateSettingsFactory: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsFactory }
+
+        internal func CreateInstanceImpl(_ baseInterface: UnsealedWinRTClassWrapper<WinUI.NavigationViewTemplateSettings.Composable>?, _ innerInterface: inout WindowsFoundation.IInspectable?) throws -> INavigationViewTemplateSettings {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                let _baseInterface = baseInterface?.toIInspectableABI { $0 }
+                let (_innerInterface) = try ComPtrs.initialize { _innerInterfaceAbi in
+                    _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsFactory.self) { pThis in
+                        try CHECKED(pThis.pointee.lpVtbl.pointee.CreateInstance(pThis, _baseInterface, &_innerInterfaceAbi, &valueAbi))
+                    }
+                }
+                innerInterface = WindowsFoundation.IInspectable(_innerInterface!)
+            }
+            return INavigationViewTemplateSettings(value!)
+        }
+
+    }
+
+    public class INavigationViewTemplateSettingsStatics: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics }
+
+        internal func get_TopPaddingPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopPaddingProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_OverflowButtonVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OverflowButtonVisibilityProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneToggleButtonVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneToggleButtonVisibilityProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_BackButtonVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_BackButtonVisibilityProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_TopPaneVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_TopPaneVisibilityProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_LeftPaneVisibilityPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_LeftPaneVisibilityProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_SingleSelectionFollowsFocusPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SingleSelectionFollowsFocusProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_PaneToggleButtonWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_PaneToggleButtonWidthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+        internal func get_SmallerPaneToggleButtonWidthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_SmallerPaneToggleButtonWidthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
+    public class INavigationViewTemplateSettingsStatics2: WindowsFoundation.IInspectable {
+        override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics2 }
+
+        internal func get_OpenPaneLengthPropertyImpl() throws -> WinUI.DependencyProperty? {
+            let (value) = try ComPtrs.initialize { valueAbi in
+                _ = try perform(as: __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettingsStatics2.self) { pThis in
+                    try CHECKED(pThis.pointee.lpVtbl.pointee.get_OpenPaneLengthProperty(pThis, &valueAbi))
+                }
+            }
+            return .from(abi: value)
+        }
+
+    }
+
     public class IPage: WindowsFoundation.IInspectable {
         override public class var IID: WindowsFoundation.IID { IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPage }
 

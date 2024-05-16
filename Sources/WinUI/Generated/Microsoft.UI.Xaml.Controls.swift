@@ -8,6 +8,8 @@ import CWinRT
 
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.appbarcloseddisplaymode)
 public typealias AppBarClosedDisplayMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CAppBarClosedDisplayMode
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestionboxtextchangereason)
+public typealias AutoSuggestionBoxTextChangeReason = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CAutoSuggestionBoxTextChangeReason
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.backgroundsizing)
 public typealias BackgroundSizing = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CBackgroundSizing
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.candidatewindowalignment)
@@ -44,6 +46,18 @@ public typealias LightDismissOverlayMode = __x_ABI_CMicrosoft_CUI_CXaml_CControl
 public typealias ListViewReorderMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CListViewReorderMode
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.listviewselectionmode)
 public typealias ListViewSelectionMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CListViewSelectionMode
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewbackbuttonvisible)
+public typealias NavigationViewBackButtonVisible = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewBackButtonVisible
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewdisplaymode)
+public typealias NavigationViewDisplayMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewDisplayMode
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewoverflowlabelmode)
+public typealias NavigationViewOverflowLabelMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewOverflowLabelMode
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewpanedisplaymode)
+public typealias NavigationViewPaneDisplayMode = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewselectionfollowsfocus)
+public typealias NavigationViewSelectionFollowsFocus = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewSelectionFollowsFocus
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewshouldernavigationenabled)
+public typealias NavigationViewShoulderNavigationEnabled = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewShoulderNavigationEnabled
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.orientation)
 public typealias Orientation = __x_ABI_CMicrosoft_CUI_CXaml_CControls_COrientation
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.passwordrevealmode)
@@ -326,6 +340,353 @@ open class AppBar : WinUI.ContentControl {
     deinit {
         _default = nil
         _IAppBarOverrides = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox)
+public final class AutoSuggestBox : WinUI.ItemsControl {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBox
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox>?) -> AutoSuggestBox? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    override public init() {
+        super.init(fromAbi: try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.AutoSuggestBox")))
+    }
+
+    private static let _IAutoSuggestBoxStatics: __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBoxStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AutoSuggestBox"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.automaximizesuggestionareaproperty)
+    public static var autoMaximizeSuggestionAreaProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_AutoMaximizeSuggestionAreaPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.descriptionproperty)
+    public static var descriptionProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_DescriptionPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.headerproperty)
+    public static var headerProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_HeaderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.issuggestionlistopenproperty)
+    public static var isSuggestionListOpenProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_IsSuggestionListOpenPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.lightdismissoverlaymodeproperty)
+    public static var lightDismissOverlayModeProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_LightDismissOverlayModePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.maxsuggestionlistheightproperty)
+    public static var maxSuggestionListHeightProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_MaxSuggestionListHeightPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.placeholdertextproperty)
+    public static var placeholderTextProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_PlaceholderTextPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.queryiconproperty)
+    public static var queryIconProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_QueryIconPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.textboxstyleproperty)
+    public static var textBoxStyleProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_TextBoxStylePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.textmemberpathproperty)
+    public static var textMemberPathProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_TextMemberPathPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.textproperty)
+    public static var textProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_TextPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.updatetextonselectproperty)
+    public static var updateTextOnSelectProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxStatics.get_UpdateTextOnSelectPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.automaximizesuggestionarea)
+    public var autoMaximizeSuggestionArea : Bool {
+        get { try! _default.get_AutoMaximizeSuggestionAreaImpl() }
+        set { try! _default.put_AutoMaximizeSuggestionAreaImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.description)
+    public var description : Any! {
+        get { try! _default.get_DescriptionImpl() }
+        set { try! _default.put_DescriptionImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.header)
+    public var header : Any! {
+        get { try! _default.get_HeaderImpl() }
+        set { try! _default.put_HeaderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.issuggestionlistopen)
+    public var isSuggestionListOpen : Bool {
+        get { try! _default.get_IsSuggestionListOpenImpl() }
+        set { try! _default.put_IsSuggestionListOpenImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.lightdismissoverlaymode)
+    public var lightDismissOverlayMode : LightDismissOverlayMode {
+        get { try! _default.get_LightDismissOverlayModeImpl() }
+        set { try! _default.put_LightDismissOverlayModeImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.maxsuggestionlistheight)
+    public var maxSuggestionListHeight : Double {
+        get { try! _default.get_MaxSuggestionListHeightImpl() }
+        set { try! _default.put_MaxSuggestionListHeightImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.placeholdertext)
+    public var placeholderText : String {
+        get { try! _default.get_PlaceholderTextImpl() }
+        set { try! _default.put_PlaceholderTextImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.queryicon)
+    public var queryIcon : IconElement! {
+        get { try! _default.get_QueryIconImpl() }
+        set { try! _default.put_QueryIconImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.text)
+    public var text : String {
+        get { try! _default.get_TextImpl() }
+        set { try! _default.put_TextImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.textboxstyle)
+    public var textBoxStyle : WinUI.Style! {
+        get { try! _default.get_TextBoxStyleImpl() }
+        set { try! _default.put_TextBoxStyleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.textmemberpath)
+    public var textMemberPath : String {
+        get { try! _default.get_TextMemberPathImpl() }
+        set { try! _default.put_TextMemberPathImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.updatetextonselect)
+    public var updateTextOnSelect : Bool {
+        get { try! _default.get_UpdateTextOnSelectImpl() }
+        set { try! _default.put_UpdateTextOnSelectImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.querysubmitted)
+    public lazy var querySubmitted : Event<TypedEventHandler<AutoSuggestBox?, AutoSuggestBoxQuerySubmittedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_QuerySubmittedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_QuerySubmittedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.suggestionchosen)
+    public lazy var suggestionChosen : Event<TypedEventHandler<AutoSuggestBox?, AutoSuggestBoxSuggestionChosenEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_SuggestionChosenImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_SuggestionChosenImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestbox.textchanged)
+    public lazy var textChanged : Event<TypedEventHandler<AutoSuggestBox?, AutoSuggestBoxTextChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_TextChangedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_TextChangedImpl($0)
+       }
+      )
+    }()
+
+    internal enum IItemsControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIItemsControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IItemsControlOverrides
+        internal typealias Class = AutoSuggestBox
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBox
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBox
+        }
+    }
+    internal typealias Composable = IItemsControlOverrides
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxquerysubmittedeventargs)
+public final class AutoSuggestBoxQuerySubmittedEventArgs : WinUI.DependencyObject {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBoxQuerySubmittedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxQuerySubmittedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxQuerySubmittedEventArgs>?) -> AutoSuggestBoxQuerySubmittedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    override public init() {
+        super.init(fromAbi: try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.AutoSuggestBoxQuerySubmittedEventArgs")))
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxquerysubmittedeventargs.chosensuggestion)
+    public var chosenSuggestion : Any! {
+        get { try! _default.get_ChosenSuggestionImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxquerysubmittedeventargs.querytext)
+    public var queryText : String {
+        get { try! _default.get_QueryTextImpl() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxsuggestionchoseneventargs)
+public final class AutoSuggestBoxSuggestionChosenEventArgs : WinUI.DependencyObject {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBoxSuggestionChosenEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxSuggestionChosenEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxSuggestionChosenEventArgs>?) -> AutoSuggestBoxSuggestionChosenEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    override public init() {
+        super.init(fromAbi: try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.AutoSuggestBoxSuggestionChosenEventArgs")))
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxsuggestionchoseneventargs.selecteditem)
+    public var selectedItem : Any! {
+        get { try! _default.get_SelectedItemImpl() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs)
+public final class AutoSuggestBoxTextChangedEventArgs : WinUI.DependencyObject {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBoxTextChangedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIAutoSuggestBoxTextChangedEventArgs>?) -> AutoSuggestBoxTextChangedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    override public init() {
+        super.init(fromAbi: try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs")))
+    }
+
+    private static let _IAutoSuggestBoxTextChangedEventArgsStatics: __ABI_Microsoft_UI_Xaml_Controls.IAutoSuggestBoxTextChangedEventArgsStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.AutoSuggestBoxTextChangedEventArgs"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs.reasonproperty)
+    public static var reasonProperty : WinUI.DependencyProperty! {
+        get { try! _IAutoSuggestBoxTextChangedEventArgsStatics.get_ReasonPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs.checkcurrent)
+    public func checkCurrent() throws -> Bool {
+        try _default.CheckCurrentImpl()
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.autosuggestboxtextchangedeventargs.reason)
+    public var reason : AutoSuggestionBoxTextChangeReason {
+        get { try! _default.get_ReasonImpl() }
+        set { try! _default.put_ReasonImpl(newValue) }
+    }
+
+    deinit {
+        _default = nil
     }
 }
 
@@ -5204,6 +5565,178 @@ open class ImageIcon : WinUI.IconElement {
     }
 }
 
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge)
+open class InfoBadge : WinUI.Control {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IInfoBadge
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge>?) -> InfoBadge? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _IInfoBadgeFactory : __ABI_Microsoft_UI_Xaml_Controls.IInfoBadgeFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.InfoBadge"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._IInfoBadgeFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _IInfoBadgeStatics: __ABI_Microsoft_UI_Xaml_Controls.IInfoBadgeStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.InfoBadge"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge.iconsourceproperty)
+    public class var iconSourceProperty : WinUI.DependencyProperty! {
+        get { try! _IInfoBadgeStatics.get_IconSourcePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge.templatesettingsproperty)
+    public class var templateSettingsProperty : WinUI.DependencyProperty! {
+        get { try! _IInfoBadgeStatics.get_TemplateSettingsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge.valueproperty)
+    public class var valueProperty : WinUI.DependencyProperty! {
+        get { try! _IInfoBadgeStatics.get_ValuePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge.iconsource)
+    public var iconSource : IconSource! {
+        get { try! _default.get_IconSourceImpl() }
+        set { try! _default.put_IconSourceImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge.templatesettings)
+    public var templateSettings : InfoBadgeTemplateSettings! {
+        get { try! _default.get_TemplateSettingsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadge.value)
+    public var value : Int32 {
+        get { try! _default.get_ValueImpl() }
+        set { try! _default.put_ValueImpl(newValue) }
+    }
+
+    internal enum IControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IControlOverrides
+        internal typealias Class = InfoBadge
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadge
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IInfoBadge
+        }
+    }
+    internal typealias Composable = IControlOverrides
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadgetemplatesettings)
+open class InfoBadgeTemplateSettings : WinUI.DependencyObject {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IInfoBadgeTemplateSettings
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings>?) -> InfoBadgeTemplateSettings? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _IInfoBadgeTemplateSettingsFactory : __ABI_Microsoft_UI_Xaml_Controls.IInfoBadgeTemplateSettingsFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._IInfoBadgeTemplateSettingsFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _IInfoBadgeTemplateSettingsStatics: __ABI_Microsoft_UI_Xaml_Controls.IInfoBadgeTemplateSettingsStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.InfoBadgeTemplateSettings"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadgetemplatesettings.iconelementproperty)
+    public class var iconElementProperty : WinUI.DependencyProperty! {
+        get { try! _IInfoBadgeTemplateSettingsStatics.get_IconElementPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadgetemplatesettings.infobadgecornerradiusproperty)
+    public class var infoBadgeCornerRadiusProperty : WinUI.DependencyProperty! {
+        get { try! _IInfoBadgeTemplateSettingsStatics.get_InfoBadgeCornerRadiusPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadgetemplatesettings.iconelement)
+    public var iconElement : IconElement! {
+        get { try! _default.get_IconElementImpl() }
+        set { try! _default.put_IconElementImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobadgetemplatesettings.infobadgecornerradius)
+    public var infoBadgeCornerRadius : WinUI.CornerRadius {
+        get { try! _default.get_InfoBadgeCornerRadiusImpl() }
+        set { try! _default.put_InfoBadgeCornerRadiusImpl(newValue) }
+    }
+
+    internal enum IInfoBadgeTemplateSettings : ComposableImpl {
+        internal typealias CABI = C_IInspectable
+        internal typealias SwiftABI = WindowsFoundation.IInspectable
+        internal typealias Class = InfoBadgeTemplateSettings
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBadgeTemplateSettings
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IInfoBadgeTemplateSettings
+        }
+    }
+    internal typealias Composable = IInfoBadgeTemplateSettings
+    deinit {
+        _default = nil
+    }
+}
+
 /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.infobar)
 open class InfoBar : WinUI.Control {
     private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IInfoBar
@@ -8981,6 +9514,1292 @@ public final class MenuFlyoutSubItem : WinUI.MenuFlyoutItemBase {
     internal typealias Composable = IControlOverrides
     deinit {
         _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview)
+open class NavigationView : WinUI.ContentControl {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationView
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView>?) -> NavigationView? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _INavigationViewFactory : __ABI_Microsoft_UI_Xaml_Controls.INavigationViewFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationView"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._INavigationViewFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _INavigationViewStatics: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationView"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.alwaysshowheaderproperty)
+    public class var alwaysShowHeaderProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_AlwaysShowHeaderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.autosuggestboxproperty)
+    public class var autoSuggestBoxProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_AutoSuggestBoxPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.compactmodethresholdwidthproperty)
+    public class var compactModeThresholdWidthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_CompactModeThresholdWidthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.compactpanelengthproperty)
+    public class var compactPaneLengthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_CompactPaneLengthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.displaymodeproperty)
+    public class var displayModeProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_DisplayModePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.expandedmodethresholdwidthproperty)
+    public class var expandedModeThresholdWidthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_ExpandedModeThresholdWidthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.footermenuitemsproperty)
+    public class var footerMenuItemsProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_FooterMenuItemsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.footermenuitemssourceproperty)
+    public class var footerMenuItemsSourceProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_FooterMenuItemsSourcePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.headerproperty)
+    public class var headerProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_HeaderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.headertemplateproperty)
+    public class var headerTemplateProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_HeaderTemplatePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.ispaneopenproperty)
+    public class var isPaneOpenProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_IsPaneOpenPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.ispanetogglebuttonvisibleproperty)
+    public class var isPaneToggleButtonVisibleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_IsPaneToggleButtonVisiblePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.issettingsvisibleproperty)
+    public class var isSettingsVisibleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_IsSettingsVisiblePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.istitlebarautopaddingenabledproperty)
+    public class var isTitleBarAutoPaddingEnabledProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_IsTitleBarAutoPaddingEnabledPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemcontainerstyleproperty)
+    public class var menuItemContainerStyleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_MenuItemContainerStylePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemcontainerstyleselectorproperty)
+    public class var menuItemContainerStyleSelectorProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_MenuItemContainerStyleSelectorPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemtemplateproperty)
+    public class var menuItemTemplateProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_MenuItemTemplatePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemtemplateselectorproperty)
+    public class var menuItemTemplateSelectorProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_MenuItemTemplateSelectorPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemsproperty)
+    public class var menuItemsProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_MenuItemsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemssourceproperty)
+    public class var menuItemsSourceProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_MenuItemsSourcePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.openpanelengthproperty)
+    public class var openPaneLengthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_OpenPaneLengthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panefooterproperty)
+    public class var paneFooterProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_PaneFooterPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panetogglebuttonstyleproperty)
+    public class var paneToggleButtonStyleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_PaneToggleButtonStylePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.selecteditemproperty)
+    public class var selectedItemProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_SelectedItemPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.settingsitemproperty)
+    public class var settingsItemProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics.get_SettingsItemPropertyImpl() }
+    }
+
+    private static let _INavigationViewStatics2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewStatics2 = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationView"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.contentoverlayproperty)
+    public class var contentOverlayProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_ContentOverlayPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.isbackbuttonvisibleproperty)
+    public class var isBackButtonVisibleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_IsBackButtonVisiblePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.isbackenabledproperty)
+    public class var isBackEnabledProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_IsBackEnabledPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.ispanevisibleproperty)
+    public class var isPaneVisibleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_IsPaneVisiblePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.overflowlabelmodeproperty)
+    public class var overflowLabelModeProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_OverflowLabelModePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panecustomcontentproperty)
+    public class var paneCustomContentProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_PaneCustomContentPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panedisplaymodeproperty)
+    public class var paneDisplayModeProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_PaneDisplayModePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.paneheaderproperty)
+    public class var paneHeaderProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_PaneHeaderPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panetitleproperty)
+    public class var paneTitleProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_PaneTitlePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.selectionfollowsfocusproperty)
+    public class var selectionFollowsFocusProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_SelectionFollowsFocusPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.shouldernavigationenabledproperty)
+    public class var shoulderNavigationEnabledProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_ShoulderNavigationEnabledPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.templatesettingsproperty)
+    public class var templateSettingsProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewStatics2.get_TemplateSettingsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemfromcontainer)
+    public func menuItemFromContainer(_ container: WinUI.DependencyObject!) throws -> Any! {
+        try _default.MenuItemFromContainerImpl(container)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.containerfrommenuitem)
+    public func containerFromMenuItem(_ item: Any!) throws -> WinUI.DependencyObject! {
+        try _default.ContainerFromMenuItemImpl(item)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.alwaysshowheader)
+    public var alwaysShowHeader : Bool {
+        get { try! _default.get_AlwaysShowHeaderImpl() }
+        set { try! _default.put_AlwaysShowHeaderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.autosuggestbox)
+    public var autoSuggestBox : AutoSuggestBox! {
+        get { try! _default.get_AutoSuggestBoxImpl() }
+        set { try! _default.put_AutoSuggestBoxImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.compactmodethresholdwidth)
+    public var compactModeThresholdWidth : Double {
+        get { try! _default.get_CompactModeThresholdWidthImpl() }
+        set { try! _default.put_CompactModeThresholdWidthImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.compactpanelength)
+    public var compactPaneLength : Double {
+        get { try! _default.get_CompactPaneLengthImpl() }
+        set { try! _default.put_CompactPaneLengthImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.displaymode)
+    public var displayMode : NavigationViewDisplayMode {
+        get { try! _default.get_DisplayModeImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.expandedmodethresholdwidth)
+    public var expandedModeThresholdWidth : Double {
+        get { try! _default.get_ExpandedModeThresholdWidthImpl() }
+        set { try! _default.put_ExpandedModeThresholdWidthImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.footermenuitems)
+    public var footerMenuItems : WindowsFoundation.AnyIVector<Any?>! {
+        get { try! _default.get_FooterMenuItemsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.footermenuitemssource)
+    public var footerMenuItemsSource : Any! {
+        get { try! _default.get_FooterMenuItemsSourceImpl() }
+        set { try! _default.put_FooterMenuItemsSourceImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.header)
+    public var header : Any! {
+        get { try! _default.get_HeaderImpl() }
+        set { try! _default.put_HeaderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.headertemplate)
+    public var headerTemplate : WinUI.DataTemplate! {
+        get { try! _default.get_HeaderTemplateImpl() }
+        set { try! _default.put_HeaderTemplateImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.ispaneopen)
+    public var isPaneOpen : Bool {
+        get { try! _default.get_IsPaneOpenImpl() }
+        set { try! _default.put_IsPaneOpenImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.ispanetogglebuttonvisible)
+    public var isPaneToggleButtonVisible : Bool {
+        get { try! _default.get_IsPaneToggleButtonVisibleImpl() }
+        set { try! _default.put_IsPaneToggleButtonVisibleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.issettingsvisible)
+    public var isSettingsVisible : Bool {
+        get { try! _default.get_IsSettingsVisibleImpl() }
+        set { try! _default.put_IsSettingsVisibleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.istitlebarautopaddingenabled)
+    public var isTitleBarAutoPaddingEnabled : Bool {
+        get { try! _default.get_IsTitleBarAutoPaddingEnabledImpl() }
+        set { try! _default.put_IsTitleBarAutoPaddingEnabledImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemcontainerstyle)
+    public var menuItemContainerStyle : WinUI.Style! {
+        get { try! _default.get_MenuItemContainerStyleImpl() }
+        set { try! _default.put_MenuItemContainerStyleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemcontainerstyleselector)
+    public var menuItemContainerStyleSelector : StyleSelector! {
+        get { try! _default.get_MenuItemContainerStyleSelectorImpl() }
+        set { try! _default.put_MenuItemContainerStyleSelectorImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemtemplate)
+    public var menuItemTemplate : WinUI.DataTemplate! {
+        get { try! _default.get_MenuItemTemplateImpl() }
+        set { try! _default.put_MenuItemTemplateImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemtemplateselector)
+    public var menuItemTemplateSelector : DataTemplateSelector! {
+        get { try! _default.get_MenuItemTemplateSelectorImpl() }
+        set { try! _default.put_MenuItemTemplateSelectorImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitems)
+    public var menuItems : WindowsFoundation.AnyIVector<Any?>! {
+        get { try! _default.get_MenuItemsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.menuitemssource)
+    public var menuItemsSource : Any! {
+        get { try! _default.get_MenuItemsSourceImpl() }
+        set { try! _default.put_MenuItemsSourceImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.openpanelength)
+    public var openPaneLength : Double {
+        get { try! _default.get_OpenPaneLengthImpl() }
+        set { try! _default.put_OpenPaneLengthImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panefooter)
+    public var paneFooter : WinUI.UIElement! {
+        get { try! _default.get_PaneFooterImpl() }
+        set { try! _default.put_PaneFooterImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panetogglebuttonstyle)
+    public var paneToggleButtonStyle : WinUI.Style! {
+        get { try! _default.get_PaneToggleButtonStyleImpl() }
+        set { try! _default.put_PaneToggleButtonStyleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.selecteditem)
+    public var selectedItem : Any! {
+        get { try! _default.get_SelectedItemImpl() }
+        set { try! _default.put_SelectedItemImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.settingsitem)
+    public var settingsItem : Any! {
+        get { try! _default.get_SettingsItemImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.displaymodechanged)
+    public lazy var displayModeChanged : Event<TypedEventHandler<NavigationView?, NavigationViewDisplayModeChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_DisplayModeChangedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_DisplayModeChangedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.iteminvoked)
+    public lazy var itemInvoked : Event<TypedEventHandler<NavigationView?, NavigationViewItemInvokedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_ItemInvokedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_ItemInvokedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.selectionchanged)
+    public lazy var selectionChanged : Event<TypedEventHandler<NavigationView?, NavigationViewSelectionChangedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._default else { return .init() }
+          return try! this.add_SelectionChangedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._default.remove_SelectionChangedImpl($0)
+       }
+      )
+    }()
+
+    private lazy var _INavigationView2: __ABI_Microsoft_UI_Xaml_Controls.INavigationView2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.expand)
+    public func expand(_ item: NavigationViewItem!) throws {
+        try _INavigationView2.ExpandImpl(item)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.collapse)
+    public func collapse(_ item: NavigationViewItem!) throws {
+        try _INavigationView2.CollapseImpl(item)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.contentoverlay)
+    public var contentOverlay : WinUI.UIElement! {
+        get { try! _INavigationView2.get_ContentOverlayImpl() }
+        set { try! _INavigationView2.put_ContentOverlayImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.isbackbuttonvisible)
+    public var isBackButtonVisible : NavigationViewBackButtonVisible {
+        get { try! _INavigationView2.get_IsBackButtonVisibleImpl() }
+        set { try! _INavigationView2.put_IsBackButtonVisibleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.isbackenabled)
+    public var isBackEnabled : Bool {
+        get { try! _INavigationView2.get_IsBackEnabledImpl() }
+        set { try! _INavigationView2.put_IsBackEnabledImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.ispanevisible)
+    public var isPaneVisible : Bool {
+        get { try! _INavigationView2.get_IsPaneVisibleImpl() }
+        set { try! _INavigationView2.put_IsPaneVisibleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.overflowlabelmode)
+    public var overflowLabelMode : NavigationViewOverflowLabelMode {
+        get { try! _INavigationView2.get_OverflowLabelModeImpl() }
+        set { try! _INavigationView2.put_OverflowLabelModeImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panecustomcontent)
+    public var paneCustomContent : WinUI.UIElement! {
+        get { try! _INavigationView2.get_PaneCustomContentImpl() }
+        set { try! _INavigationView2.put_PaneCustomContentImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panedisplaymode)
+    public var paneDisplayMode : NavigationViewPaneDisplayMode {
+        get { try! _INavigationView2.get_PaneDisplayModeImpl() }
+        set { try! _INavigationView2.put_PaneDisplayModeImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.paneheader)
+    public var paneHeader : WinUI.UIElement! {
+        get { try! _INavigationView2.get_PaneHeaderImpl() }
+        set { try! _INavigationView2.put_PaneHeaderImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.panetitle)
+    public var paneTitle : String {
+        get { try! _INavigationView2.get_PaneTitleImpl() }
+        set { try! _INavigationView2.put_PaneTitleImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.selectionfollowsfocus)
+    public var selectionFollowsFocus : NavigationViewSelectionFollowsFocus {
+        get { try! _INavigationView2.get_SelectionFollowsFocusImpl() }
+        set { try! _INavigationView2.put_SelectionFollowsFocusImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.shouldernavigationenabled)
+    public var shoulderNavigationEnabled : NavigationViewShoulderNavigationEnabled {
+        get { try! _INavigationView2.get_ShoulderNavigationEnabledImpl() }
+        set { try! _INavigationView2.put_ShoulderNavigationEnabledImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.templatesettings)
+    public var templateSettings : NavigationViewTemplateSettings! {
+        get { try! _INavigationView2.get_TemplateSettingsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.backrequested)
+    public lazy var backRequested : Event<TypedEventHandler<NavigationView?, NavigationViewBackRequestedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_BackRequestedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_BackRequestedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.collapsed)
+    public lazy var collapsed : Event<TypedEventHandler<NavigationView?, NavigationViewItemCollapsedEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_CollapsedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_CollapsedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.expanding)
+    public lazy var expanding : Event<TypedEventHandler<NavigationView?, NavigationViewItemExpandingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_ExpandingImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_ExpandingImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.paneclosed)
+    public lazy var paneClosed : Event<TypedEventHandler<NavigationView?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_PaneClosedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_PaneClosedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.paneclosing)
+    public lazy var paneClosing : Event<TypedEventHandler<NavigationView?, NavigationViewPaneClosingEventArgs?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_PaneClosingImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_PaneClosingImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.paneopened)
+    public lazy var paneOpened : Event<TypedEventHandler<NavigationView?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_PaneOpenedImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_PaneOpenedImpl($0)
+       }
+      )
+    }()
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationview.paneopening)
+    public lazy var paneOpening : Event<TypedEventHandler<NavigationView?, Any?>> = {
+      .init(
+        add: { [weak self] in
+          guard let this = self?._INavigationView2 else { return .init() }
+          return try! this.add_PaneOpeningImpl($0)
+        },
+        remove: { [weak self] in
+         try? self?._INavigationView2.remove_PaneOpeningImpl($0)
+       }
+      )
+    }()
+
+    internal enum IContentControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIContentControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IContentControlOverrides
+        internal typealias Class = NavigationView
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationView
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationView
+        }
+    }
+    internal typealias Composable = IContentControlOverrides
+    deinit {
+        _default = nil
+        _INavigationView2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewbackrequestedeventargs)
+public final class NavigationViewBackRequestedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewBackRequestedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewBackRequestedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewBackRequestedEventArgs>?) -> NavigationViewBackRequestedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewdisplaymodechangedeventargs)
+public final class NavigationViewDisplayModeChangedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewDisplayModeChangedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewDisplayModeChangedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewDisplayModeChangedEventArgs>?) -> NavigationViewDisplayModeChangedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewdisplaymodechangedeventargs.displaymode)
+    public var displayMode : NavigationViewDisplayMode {
+        get { try! _default.get_DisplayModeImpl() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem)
+open class NavigationViewItem : WinUI.NavigationViewItemBase {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItem
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem>?) -> NavigationViewItem? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _INavigationViewItemFactory : __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewItem"))
+
+    public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._INavigationViewItemFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _INavigationViewItemStatics: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewItem"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.compactpanelengthproperty)
+    public class var compactPaneLengthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics.get_CompactPaneLengthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.iconproperty)
+    public class var iconProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics.get_IconPropertyImpl() }
+    }
+
+    private static let _INavigationViewItemStatics2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemStatics2 = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewItem"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.hasunrealizedchildrenproperty)
+    public class var hasUnrealizedChildrenProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics2.get_HasUnrealizedChildrenPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.ischildselectedproperty)
+    public class var isChildSelectedProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics2.get_IsChildSelectedPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.isexpandedproperty)
+    public class var isExpandedProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics2.get_IsExpandedPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.menuitemsproperty)
+    public class var menuItemsProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics2.get_MenuItemsPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.menuitemssourceproperty)
+    public class var menuItemsSourceProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics2.get_MenuItemsSourcePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.selectsoninvokedproperty)
+    public class var selectsOnInvokedProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics2.get_SelectsOnInvokedPropertyImpl() }
+    }
+
+    private static let _INavigationViewItemStatics3: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemStatics3 = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewItem"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.infobadgeproperty)
+    public class var infoBadgeProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemStatics3.get_InfoBadgePropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.compactpanelength)
+    public var compactPaneLength : Double {
+        get { try! _default.get_CompactPaneLengthImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.icon)
+    public var icon : IconElement! {
+        get { try! _default.get_IconImpl() }
+        set { try! _default.put_IconImpl(newValue) }
+    }
+
+    private lazy var _INavigationViewItem2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItem2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.hasunrealizedchildren)
+    public var hasUnrealizedChildren : Bool {
+        get { try! _INavigationViewItem2.get_HasUnrealizedChildrenImpl() }
+        set { try! _INavigationViewItem2.put_HasUnrealizedChildrenImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.ischildselected)
+    public var isChildSelected : Bool {
+        get { try! _INavigationViewItem2.get_IsChildSelectedImpl() }
+        set { try! _INavigationViewItem2.put_IsChildSelectedImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.isexpanded)
+    public var isExpanded : Bool {
+        get { try! _INavigationViewItem2.get_IsExpandedImpl() }
+        set { try! _INavigationViewItem2.put_IsExpandedImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.menuitems)
+    public var menuItems : WindowsFoundation.AnyIVector<Any?>! {
+        get { try! _INavigationViewItem2.get_MenuItemsImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.menuitemssource)
+    public var menuItemsSource : Any! {
+        get { try! _INavigationViewItem2.get_MenuItemsSourceImpl() }
+        set { try! _INavigationViewItem2.put_MenuItemsSourceImpl(newValue) }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.selectsoninvoked)
+    public var selectsOnInvoked : Bool {
+        get { try! _INavigationViewItem2.get_SelectsOnInvokedImpl() }
+        set { try! _INavigationViewItem2.put_SelectsOnInvokedImpl(newValue) }
+    }
+
+    private lazy var _INavigationViewItem3: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItem3! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitem.infobadge)
+    public var infoBadge : InfoBadge! {
+        get { try! _INavigationViewItem3.get_InfoBadgeImpl() }
+        set { try! _INavigationViewItem3.put_InfoBadgeImpl(newValue) }
+    }
+
+    internal enum IContentControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIContentControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IContentControlOverrides
+        internal typealias Class = NavigationViewItem
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItem
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItem
+        }
+    }
+    internal typealias Composable = IContentControlOverrides
+    deinit {
+        _default = nil
+        _INavigationViewItem2 = nil
+        _INavigationViewItem3 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitembase)
+open class NavigationViewItemBase : WinUI.ContentControl {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemBase
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase>?) -> NavigationViewItemBase? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _INavigationViewItemBaseFactory : __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemBaseFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"))
+
+    private static let _INavigationViewItemBaseStatics: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemBaseStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitembase.isselectedproperty)
+    public class var isSelectedProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewItemBaseStatics.get_IsSelectedPropertyImpl() }
+    }
+
+    private lazy var _INavigationViewItemBase2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemBase2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitembase.isselected)
+    public var isSelected : Bool {
+        get { try! _INavigationViewItemBase2.get_IsSelectedImpl() }
+        set { try! _INavigationViewItemBase2.put_IsSelectedImpl(newValue) }
+    }
+
+    internal enum IContentControlOverrides : ComposableImpl {
+        internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIContentControlOverrides
+        internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.IContentControlOverrides
+        internal typealias Class = NavigationViewItemBase
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemBase
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemBase
+        }
+    }
+    internal typealias Composable = IContentControlOverrides
+    deinit {
+        _default = nil
+        _INavigationViewItemBase2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitemcollapsedeventargs)
+public final class NavigationViewItemCollapsedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemCollapsedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemCollapsedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemCollapsedEventArgs>?) -> NavigationViewItemCollapsedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitemcollapsedeventargs.collapseditem)
+    public var collapsedItem : Any! {
+        get { try! _default.get_CollapsedItemImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitemcollapsedeventargs.collapseditemcontainer)
+    public var collapsedItemContainer : NavigationViewItemBase! {
+        get { try! _default.get_CollapsedItemContainerImpl() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitemexpandingeventargs)
+public final class NavigationViewItemExpandingEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemExpandingEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemExpandingEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemExpandingEventArgs>?) -> NavigationViewItemExpandingEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitemexpandingeventargs.expandingitem)
+    public var expandingItem : Any! {
+        get { try! _default.get_ExpandingItemImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewitemexpandingeventargs.expandingitemcontainer)
+    public var expandingItemContainer : NavigationViewItemBase! {
+        get { try! _default.get_ExpandingItemContainerImpl() }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewiteminvokedeventargs)
+public final class NavigationViewItemInvokedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemInvokedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewItemInvokedEventArgs>?) -> NavigationViewItemInvokedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    override public init() {
+        super.init(try! RoActivateInstance(HString("Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs")))
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewiteminvokedeventargs.invokeditem)
+    public var invokedItem : Any! {
+        get { try! _default.get_InvokedItemImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewiteminvokedeventargs.issettingsinvoked)
+    public var isSettingsInvoked : Bool {
+        get { try! _default.get_IsSettingsInvokedImpl() }
+    }
+
+    private lazy var _INavigationViewItemInvokedEventArgs2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewItemInvokedEventArgs2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewiteminvokedeventargs.invokeditemcontainer)
+    public var invokedItemContainer : NavigationViewItemBase! {
+        get { try! _INavigationViewItemInvokedEventArgs2.get_InvokedItemContainerImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewiteminvokedeventargs.recommendednavigationtransitioninfo)
+    public var recommendedNavigationTransitionInfo : WinUI.NavigationTransitionInfo! {
+        get { try! _INavigationViewItemInvokedEventArgs2.get_RecommendedNavigationTransitionInfoImpl() }
+    }
+
+    deinit {
+        _default = nil
+        _INavigationViewItemInvokedEventArgs2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewpaneclosingeventargs)
+public final class NavigationViewPaneClosingEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewPaneClosingEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewPaneClosingEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewPaneClosingEventArgs>?) -> NavigationViewPaneClosingEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewpaneclosingeventargs.cancel)
+    public var cancel : Bool {
+        get { try! _default.get_CancelImpl() }
+        set { try! _default.put_CancelImpl(newValue) }
+    }
+
+    deinit {
+        _default = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewselectionchangedeventargs)
+public final class NavigationViewSelectionChangedEventArgs : WinRTClass {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewSelectionChangedEventArgs
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override public func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewSelectionChangedEventArgs>?) -> NavigationViewSelectionChangedEventArgs? {
+        guard let abi = abi else { return nil }
+        return .init(fromAbi: WindowsFoundation.IInspectable(abi))
+    }
+
+    @_spi(WinRTInternal)
+    public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi)
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewselectionchangedeventargs.issettingsselected)
+    public var isSettingsSelected : Bool {
+        get { try! _default.get_IsSettingsSelectedImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewselectionchangedeventargs.selecteditem)
+    public var selectedItem : Any! {
+        get { try! _default.get_SelectedItemImpl() }
+    }
+
+    private lazy var _INavigationViewSelectionChangedEventArgs2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewSelectionChangedEventArgs2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewselectionchangedeventargs.recommendednavigationtransitioninfo)
+    public var recommendedNavigationTransitionInfo : WinUI.NavigationTransitionInfo! {
+        get { try! _INavigationViewSelectionChangedEventArgs2.get_RecommendedNavigationTransitionInfoImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewselectionchangedeventargs.selecteditemcontainer)
+    public var selectedItemContainer : NavigationViewItemBase! {
+        get { try! _INavigationViewSelectionChangedEventArgs2.get_SelectedItemContainerImpl() }
+    }
+
+    deinit {
+        _default = nil
+        _INavigationViewSelectionChangedEventArgs2 = nil
+    }
+}
+
+/// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings)
+open class NavigationViewTemplateSettings : WinUI.DependencyObject {
+    private typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewTemplateSettings
+    private typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings
+    private lazy var _default: SwiftABI! = getInterfaceForCaching()
+    @_spi(WinRTInternal)
+    override open func _getABI<T>() -> UnsafeMutablePointer<T>? {
+        if T.self == CABI.self {
+            return RawPointer(_default)
+        }
+        return super._getABI()
+    }
+
+    @_spi(WinRTInternal)
+    public static func from(abi: ComPtr<__x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings>?) -> NavigationViewTemplateSettings? {
+        guard let abi = abi else { return nil }
+        return UnsealedWinRTClassWrapper<Composable>.unwrapFrom(base: abi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init(fromAbi: WindowsFoundation.IInspectable) {
+        super.init(fromAbi: fromAbi)
+    }
+
+    @_spi(WinRTInternal)
+    override public init<Composable: ComposableImpl>(
+        composing: Composable.Type,
+        _ createCallback: (UnsealedWinRTClassWrapper<Composable>?, inout WindowsFoundation.IInspectable?) -> Composable.Default.SwiftABI)
+    {
+        super.init(composing: composing, createCallback)
+    }
+    override open func queryInterface(_ iid: WindowsFoundation.IID) -> IUnknownRef? {
+        return super.queryInterface(iid)
+    }
+    private static var _INavigationViewTemplateSettingsFactory : __ABI_Microsoft_UI_Xaml_Controls.INavigationViewTemplateSettingsFactory =  try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings"))
+
+    override public init() {
+        super.init(composing: Self.Composable.self) { baseInterface, innerInterface in 
+            try! Self._INavigationViewTemplateSettingsFactory.CreateInstanceImpl(baseInterface, &innerInterface)
+        }
+    }
+
+    private static let _INavigationViewTemplateSettingsStatics: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewTemplateSettingsStatics = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.backbuttonvisibilityproperty)
+    public class var backButtonVisibilityProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_BackButtonVisibilityPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.leftpanevisibilityproperty)
+    public class var leftPaneVisibilityProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_LeftPaneVisibilityPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.overflowbuttonvisibilityproperty)
+    public class var overflowButtonVisibilityProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_OverflowButtonVisibilityPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.panetogglebuttonvisibilityproperty)
+    public class var paneToggleButtonVisibilityProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_PaneToggleButtonVisibilityPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.panetogglebuttonwidthproperty)
+    public class var paneToggleButtonWidthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_PaneToggleButtonWidthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.singleselectionfollowsfocusproperty)
+    public class var singleSelectionFollowsFocusProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_SingleSelectionFollowsFocusPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.smallerpanetogglebuttonwidthproperty)
+    public class var smallerPaneToggleButtonWidthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_SmallerPaneToggleButtonWidthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.toppaddingproperty)
+    public class var topPaddingProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_TopPaddingPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.toppanevisibilityproperty)
+    public class var topPaneVisibilityProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics.get_TopPaneVisibilityPropertyImpl() }
+    }
+
+    private static let _INavigationViewTemplateSettingsStatics2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewTemplateSettingsStatics2 = try! RoGetActivationFactory(HString("Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings"))
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.openpanelengthproperty)
+    public class var openPaneLengthProperty : WinUI.DependencyProperty! {
+        get { try! _INavigationViewTemplateSettingsStatics2.get_OpenPaneLengthPropertyImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.backbuttonvisibility)
+    public var backButtonVisibility : WinUI.Visibility {
+        get { try! _default.get_BackButtonVisibilityImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.leftpanevisibility)
+    public var leftPaneVisibility : WinUI.Visibility {
+        get { try! _default.get_LeftPaneVisibilityImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.overflowbuttonvisibility)
+    public var overflowButtonVisibility : WinUI.Visibility {
+        get { try! _default.get_OverflowButtonVisibilityImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.panetogglebuttonvisibility)
+    public var paneToggleButtonVisibility : WinUI.Visibility {
+        get { try! _default.get_PaneToggleButtonVisibilityImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.panetogglebuttonwidth)
+    public var paneToggleButtonWidth : Double {
+        get { try! _default.get_PaneToggleButtonWidthImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.singleselectionfollowsfocus)
+    public var singleSelectionFollowsFocus : Bool {
+        get { try! _default.get_SingleSelectionFollowsFocusImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.smallerpanetogglebuttonwidth)
+    public var smallerPaneToggleButtonWidth : Double {
+        get { try! _default.get_SmallerPaneToggleButtonWidthImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.toppadding)
+    public var topPadding : Double {
+        get { try! _default.get_TopPaddingImpl() }
+    }
+
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.toppanevisibility)
+    public var topPaneVisibility : WinUI.Visibility {
+        get { try! _default.get_TopPaneVisibilityImpl() }
+    }
+
+    private lazy var _INavigationViewTemplateSettings2: __ABI_Microsoft_UI_Xaml_Controls.INavigationViewTemplateSettings2! = getInterfaceForCaching()
+    /// [Open Microsoft documentation](https://learn.microsoft.com/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.navigationviewtemplatesettings.openpanelength)
+    public var openPaneLength : Double {
+        get { try! _INavigationViewTemplateSettings2.get_OpenPaneLengthImpl() }
+    }
+
+    internal enum INavigationViewTemplateSettings : ComposableImpl {
+        internal typealias CABI = C_IInspectable
+        internal typealias SwiftABI = WindowsFoundation.IInspectable
+        internal typealias Class = NavigationViewTemplateSettings
+        internal typealias SwiftProjection = WinRTClassWeakReference<Class>
+        internal enum Default : AbiInterface {
+            internal typealias CABI = __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINavigationViewTemplateSettings
+            internal typealias SwiftABI = __ABI_Microsoft_UI_Xaml_Controls.INavigationViewTemplateSettings
+        }
+    }
+    internal typealias Composable = INavigationViewTemplateSettings
+    deinit {
+        _default = nil
+        _INavigationViewTemplateSettings2 = nil
     }
 }
 
@@ -18056,6 +19875,19 @@ extension WinUI.AppBarClosedDisplayMode {
 }
 extension WinUI.AppBarClosedDisplayMode: @retroactive Hashable, @retroactive Codable {}
 
+extension WinUI.AutoSuggestionBoxTextChangeReason {
+    public static var userInput : WinUI.AutoSuggestionBoxTextChangeReason {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CAutoSuggestionBoxTextChangeReason_UserInput
+    }
+    public static var programmaticChange : WinUI.AutoSuggestionBoxTextChangeReason {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CAutoSuggestionBoxTextChangeReason_ProgrammaticChange
+    }
+    public static var suggestionChosen : WinUI.AutoSuggestionBoxTextChangeReason {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CAutoSuggestionBoxTextChangeReason_SuggestionChosen
+    }
+}
+extension WinUI.AutoSuggestionBoxTextChangeReason: @retroactive Hashable, @retroactive Codable {}
+
 extension WinUI.BackgroundSizing {
     public static var innerBorderEdge : WinUI.BackgroundSizing {
         __x_ABI_CMicrosoft_CUI_CXaml_CControls_CBackgroundSizing_InnerBorderEdge
@@ -18280,6 +20112,84 @@ extension WinUI.ListViewSelectionMode {
     }
 }
 extension WinUI.ListViewSelectionMode: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.NavigationViewBackButtonVisible {
+    public static var collapsed : WinUI.NavigationViewBackButtonVisible {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewBackButtonVisible_Collapsed
+    }
+    public static var visible : WinUI.NavigationViewBackButtonVisible {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewBackButtonVisible_Visible
+    }
+    public static var auto : WinUI.NavigationViewBackButtonVisible {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewBackButtonVisible_Auto
+    }
+}
+extension WinUI.NavigationViewBackButtonVisible: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.NavigationViewDisplayMode {
+    public static var minimal : WinUI.NavigationViewDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewDisplayMode_Minimal
+    }
+    public static var compact : WinUI.NavigationViewDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewDisplayMode_Compact
+    }
+    public static var expanded : WinUI.NavigationViewDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewDisplayMode_Expanded
+    }
+}
+extension WinUI.NavigationViewDisplayMode: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.NavigationViewOverflowLabelMode {
+    public static var moreLabel : WinUI.NavigationViewOverflowLabelMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewOverflowLabelMode_MoreLabel
+    }
+    public static var noLabel : WinUI.NavigationViewOverflowLabelMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewOverflowLabelMode_NoLabel
+    }
+}
+extension WinUI.NavigationViewOverflowLabelMode: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.NavigationViewPaneDisplayMode {
+    public static var auto : WinUI.NavigationViewPaneDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode_Auto
+    }
+    public static var left : WinUI.NavigationViewPaneDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode_Left
+    }
+    public static var top : WinUI.NavigationViewPaneDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode_Top
+    }
+    public static var leftCompact : WinUI.NavigationViewPaneDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode_LeftCompact
+    }
+    public static var leftMinimal : WinUI.NavigationViewPaneDisplayMode {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewPaneDisplayMode_LeftMinimal
+    }
+}
+extension WinUI.NavigationViewPaneDisplayMode: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.NavigationViewSelectionFollowsFocus {
+    public static var disabled : WinUI.NavigationViewSelectionFollowsFocus {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewSelectionFollowsFocus_Disabled
+    }
+    public static var enabled : WinUI.NavigationViewSelectionFollowsFocus {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewSelectionFollowsFocus_Enabled
+    }
+}
+extension WinUI.NavigationViewSelectionFollowsFocus: @retroactive Hashable, @retroactive Codable {}
+
+extension WinUI.NavigationViewShoulderNavigationEnabled {
+    public static var whenSelectionFollowsFocus : WinUI.NavigationViewShoulderNavigationEnabled {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewShoulderNavigationEnabled_WhenSelectionFollowsFocus
+    }
+    public static var always : WinUI.NavigationViewShoulderNavigationEnabled {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewShoulderNavigationEnabled_Always
+    }
+    public static var never : WinUI.NavigationViewShoulderNavigationEnabled {
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CNavigationViewShoulderNavigationEnabled_Never
+    }
+}
+extension WinUI.NavigationViewShoulderNavigationEnabled: @retroactive Hashable, @retroactive Codable {}
 
 extension WinUI.Orientation {
     public static var vertical : WinUI.Orientation {
